@@ -3,6 +3,9 @@ jobs:
     build:
         docker:
             - image: cimg/node:14.10.1
+              auth:
+                username: alejoavilag
+                password: s2DE3&qK/@$T@X~
         steps:
             - checkout
             - run: echo "first probe"
